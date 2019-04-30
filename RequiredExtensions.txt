@@ -1,0 +1,5 @@
+Bootstrap v10.15.3
+npm v6.4.1
+
+Not Required, but helpful:
+live-server
