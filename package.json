@@ -1,0 +1,26 @@
+{
+  "name": "guidents",
+  "version": "1.0.0",
+  "description": "GANG SHIT BITCH",
+  "main": "index.js",
+  "engines": {
+	  "node": "10.15.3",
+	  "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdwinters/GuidEnts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdwinters/GuidEnts/issues"
+  },
+  "homepage": "https://github.com/jdwinters/GuidEnts#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

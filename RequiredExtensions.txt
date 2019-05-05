@@ -3,3 +3,6 @@ npm v6.4.1
 
 Not Required, but helpful:
 live-server
+
+
+https://github.com/joshnh/Git-Commands
