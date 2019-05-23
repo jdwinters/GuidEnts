@@ -11,6 +11,17 @@
     margin-right: auto;
 }
 
+.Google-logo {
+    height: 10vmin;
+    pointer-events: none;
+    display: block;
+    margin-left: auto;
+    margin-right: 32.5%;
+    border-radius: 16px;
+    box-shadow: 5px 5px #3a6622;
+    border: 2px solid;
+}
+
 .App-header {
     background-image: url("backdrop.jpg");
     background-color: #99d68e;
@@ -25,7 +36,7 @@
 
 .button {
     position: relative;
-    top: -80px;
+    top: -98px;
     background-color: #c8ffaa;
     border: none;
     color: black;
@@ -39,7 +50,18 @@
     border: 2px solid;
     padding: 10px;
     box-shadow: 5px 5px #3a6622;
+    border-radius: 16px;
 }
+
+    .button:hover {
+        background-color: #76ba51
+    }
+
+    .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
 
 .App-link {
   color: #61dafb;

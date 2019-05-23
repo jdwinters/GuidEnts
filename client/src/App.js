@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.png';
+import Glogo from './Glogo.png';
 import './App.css';
 
 
@@ -13,6 +14,7 @@ function App() {
 		<h1>Welcome! </h1>
         <p>
         </p>
+        <img src={Glogo} className="Google-logo" alt="Glogo" />
         <a href="/auth/google" class="button">Sign in With Google</a>
         <a
           className="App-link"
