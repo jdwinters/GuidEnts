@@ -23,7 +23,7 @@
 }
 
 .App-header {
-    background-image: url("backdrop.jpg");
+    background-image: url("backdrop1.jpg");
     background-color: #99d68e;
     min-height: 100vh;
     display: flex;
@@ -77,8 +77,9 @@
 h1 {
     position: relative;
     top: -10px;
-   text-align: center;
-      
+    text-align: center;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    color: #639634;
 }
 
 @keyframes App-logo-spin {
