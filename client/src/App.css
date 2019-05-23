@@ -4,7 +4,7 @@
 
 .App-logo {
     animation: App-logo-spin infinite 0s linear;
-    height: 40vmin;
+    height: 30vmin;
     pointer-events: none;
     display: block;
     margin-left: auto;
@@ -30,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(30px + 2vmin);
+    font-size: calc(20px + 2vmin);
     color: black;
 }
 
@@ -76,7 +76,7 @@
 
 h1 {
     position: relative;
-    top: -50px;
+    top: -10px;
    text-align: center;
       
 }
