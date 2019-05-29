@@ -5,7 +5,8 @@ const userSchema = new Schema({
 	googleID: String,
 	givenName: String,
 	familyName: String,
-	uniEmail: String
+	uniEmail: String,
+	isAdviser: Boolean
 
 });
 
