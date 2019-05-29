@@ -22,13 +22,20 @@ passport.use(new GoogleStrategy({
 	callbackURL: '/auth/google/callback',
 	proxy: true
 }, async (accessToken, refreshToken, profile, done) => {
+	console.log(profile);
 	const existingUser = await User.findOne({ googleID: profile.id });
 	if(existingUser){
 		// we already have a record with given profile ID
 		return done(null, existingUser);
 	}
+	var uEmail;
 	// we don't have a user record, make new one
-	const user = await new User({ googleID: profile.id }).save();
+	if(profile._json.hd === 'ucsc.edu'){
+		uEmail = profile._json.email;
+	}else{
+		uEmail = '';
+	}
+	const user = await new User({ googleID: profile.id, givenName: profile._json.given_name, familyName: profile._json.family_name, uniEmail: uEmail }).save();
 	done(null, user);
 	})
 );
