@@ -26,7 +26,7 @@ class Header extends Component {
 				return;
 			default:
 				return (
-					<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<ul id="nav-mobile" className="right hide-on-med-and-down">
 					    <li><Link to="/trees">Trees</Link></li>
 					    <li><Link to="/classes">Classes</Link></li>
 					    <li><Link to="/advisers">Advisers</Link></li>
@@ -36,8 +36,8 @@ class Header extends Component {
 	}
 	render(){
 		return(
-			<nav class="nav-extended">
-			    <div class="nav-wrapper">
+			<nav className="nav-extended">
+			    <div className="nav-wrapper">
 					<Link
 		  				to={this.props.auth ? '/dashboard' : '/'}
 		  				className="left brand-logo"
@@ -49,7 +49,7 @@ class Header extends Component {
 					</ul>
 			      	{this.renderPaginationContent()}
 			    </div>
-				<div class="nav-content">
+				<div className="nav-content">
 					<Route path="/trees" component={TreeTabs} />
 				</div>
 			  </nav>

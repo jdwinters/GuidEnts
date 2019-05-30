@@ -9,7 +9,6 @@ import Trees from './Trees';
 import Classes from './Classes';
 import Advisers from './Advisers';
 
-const Dashboard = () => <h2>Dashboard</h2>;
 
 
 class App extends Component {
@@ -24,7 +23,6 @@ class App extends Component {
 					<div>
 						<Header />
 						<Route exact path="/" component={Landing} />
-						<Route exact path="/dashboard" component={Dashboard} />
 						<Route path="/trees" component={Trees} />
 						<Route exact path="/classes" component={Classes} />
 						<Route exact path="/advisers" component={Advisers} />
