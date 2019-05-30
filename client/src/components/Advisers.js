@@ -14,11 +14,14 @@ class Advisers extends Component {
         <ul class="collapsible">
           <li>
             <div class="collapsible-header">
-              <p class="material-icons">Advisor 1</p>
+              <p class="material-icons">Philosphy Advisor</p>
             </div>
             <div class="collapsible-body">
-              <span>Phone</span> <br />
-              <span>Email</span>
+              <span>David Sugg</span> <br />
+              <span>Email: dsugg@ucsc.edu</span> <br />
+              <span>Phone: 831-459-2070</span> <br />
+              <span>Office Location:
+Cowell College Academic Building, 220</span>
             </div>
           </li>
           <li>
