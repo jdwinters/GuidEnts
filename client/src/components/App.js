@@ -8,6 +8,7 @@ import Landing from './Landing';
 import Trees from './Trees';
 import Classes from './Classes';
 import Advisers from './Advisers';
+import Settings from './Settings';
 
 
 
@@ -26,6 +27,7 @@ class App extends Component {
 						<Route path="/trees" component={Trees} />
 						<Route exact path="/classes" component={Classes} />
 						<Route exact path="/advisers" component={Advisers} />
+                        <Route exact path="/settings" component={Settings} />
 
 					</div>
 				</BrowserRouter>
