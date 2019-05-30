@@ -32,6 +32,5 @@ class major{
 
     return diff;
   }
-
+  
   }
-}

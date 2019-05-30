@@ -1,10 +1,13 @@
 
-const course = new Schema({
+class course{
 
-  name: String,
-  code: String,
-  num: String,
-  req: String [],
-  geReq: String[]
+  constructor(name, code, num, req, geReq){
+    this.name = name; //string
+    this.code = code; //String
+    this.num = num; //string
+    this.req = req; //[]
+    this.geReq = geReq; //[]
+  }
 
-});
+
+}
