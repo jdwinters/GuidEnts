@@ -6,8 +6,9 @@ const userSchema = new Schema({
 	givenName: String,
 	familyName: String,
 	uniEmail: String,
-	isAdviser: Boolean
-
+	expectedGraduation: Date,
+	isAdviser: { type: Boolean, default: false },
+	numberOfMajorGraphs: { type: Number, default: 0}
 });
 
 mongoose.model('users', userSchema);

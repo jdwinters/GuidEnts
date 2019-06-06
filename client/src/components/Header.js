@@ -14,7 +14,8 @@ class Header extends Component {
 				);
 			default:
 				return (
-					<li><a href="/api/logout">Logout</a></li>
+					[<li><a href="/api/logout">Logout {this.props.auth.givenName}</a></li>,
+					<li></li>]
 				);
 		}
 	}
@@ -39,6 +40,7 @@ class Header extends Component {
 			<nav className="nav-extended">
 			    <div className="nav-wrapper">
 					<Link
+						style={{ margin: '0 10px'}}
 		  				to={this.props.auth ? '/dashboard' : '/'}
 		  				className="left brand-logo"
 		  			>
